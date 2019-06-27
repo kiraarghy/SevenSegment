@@ -1,0 +1,32 @@
+.on {
+  animation: fadeIn 150ms ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.off {
+  animation: fadeOut 150ms ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
